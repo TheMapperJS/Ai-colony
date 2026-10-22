@@ -1,0 +1,8 @@
+{
+  "name": "AI Colony - Voxel Sim",
+  "description": "High-performance zero-allocation voxel colony simulation in Three.js and TypeScript featuring procedural terrain, SoA colonists, A* pathfinding, construction, farming, and needs management.",
+  "permissions": [],
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
