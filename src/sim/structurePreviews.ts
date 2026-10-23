@@ -135,6 +135,7 @@ export function createStructureModel(blockType: number, material: THREE.Material
     case BLOCK_HERBS:
     case BLOCK_COTTON:
     case BLOCK_HAY: {
+      const def = BLOCK_DEFS[blockType];
       const cropType = def?.cropType || 'wheat';
       const cropGeo = farmVoxCache.getGeometry(cropType, 2);
       const cropMesh = new THREE.Mesh(cropGeo, material);
